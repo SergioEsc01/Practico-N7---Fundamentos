@@ -2,11 +2,23 @@ Con tus palabras explica los siguientes conceptos.
 
 
 - Protoype
+hereda metodos y propiedades a los objetos
 
 - Explica con un ejemplo en donde haya un super super type, un super type y un subtype
-
+una escuela donde el super super type seria la misma escuela, un super type serian los maestros y un subtype serian los alumnos 
 - Que son los Object
+son propiedades referidas a los objetos 
 
 - Explica por lo menos 5 metodos de los Object
-
+Object.defineProperties()
+Añade las propiedades nombradas a un objeto
+Object.assign()
+Copia los valores de todas las propiedades enumerables propias de uno o más objetos 
+Object.entries()
+Devuelve un arreglo con sus [keys,value] en formato de cadena
+Object.fromEntries()
+Devuelve un nuevo objeto de los pares iterables [key, value] hace lo opuesto a object.entries
+Object.getOwnPropertyNames()
+devuelve un arreglo con las propiedades enumerables y no enumerables del objeto 
 - Que hace Object.keys?
+obtiene las propiedades de un objeto y las devuelve en arreglos
